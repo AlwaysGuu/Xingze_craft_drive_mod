@@ -1,0 +1,21 @@
+{
+    "credit": "Made with Blockbench",
+    "texture_size": [64, 64],
+    "textures": {
+        "0": "xcdm:block/station_sign_congyu_line_sea_shenyuan_up",
+        "particle": "xcdm:block/station_sign_congyu_line_sea_shenyuan_up"
+    },
+    "elements": [{
+        "from": [-8, 0, 6],
+        "to": [24, 16, 10],
+        "faces": {
+            "north": { "uv": [0, 0, 8, 4], "texture": "#0" },
+            "east": { "uv": [8, 1, 9, 5], "texture": "#0" },
+            "south": { "uv": [0, 4, 8, 8], "texture": "#0" },
+            "west": { "uv": [8, 5, 9, 9], "texture": "#0" },
+            "up": { "uv": [8, 9, 0, 8], "texture": "#0" },
+            "down": { "uv": [16, 0, 8, 1], "texture": "#0" }
+        }
+    }],
+    "display": {}
+}

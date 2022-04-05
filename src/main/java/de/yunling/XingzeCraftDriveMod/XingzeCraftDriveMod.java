@@ -3,10 +3,14 @@ package de.yunling.XingzeCraftDriveMod;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import de.yunling.XingzeCraftDriveMod.block.StationSignMc01;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -15,13 +19,32 @@ public class XingzeCraftDriveMod implements ModInitializer {
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LogManager.getLogger("modid");
-	public static final Block Station_Sign_MC01 = new Block(FabricBlockSettings.of(Material.METAL).hardness(4.0F));
+	public static final Block Station_Sign_MC01 = new StationSignMc01(FabricBlockSettings.of(Material.METAL).hardness(4.0F));
+	public static final Block Station_Sign_MC02 = new Block(FabricBlockSettings.of(Material.METAL).hardness(4.0F));
+	public static final Block Station_Sign_MC03 = new Block(FabricBlockSettings.of(Material.METAL).hardness(4.0F));
+	public static final Block Station_Sign_MC04 = new Block(FabricBlockSettings.of(Material.METAL).hardness(4.0F));
+	public static final Block Station_Sign_MC05 = new Block(FabricBlockSettings.of(Material.METAL).hardness(4.0F));
+	public static final Block Station_Sign_MC06 = new Block(FabricBlockSettings.of(Material.METAL).hardness(4.0F));
+	
 	@Override
+	
 	public void onInitialize() {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		Registry.register(Registry.BLOCK, new Identifier("xcdm","station_sign_mc01"),Station_Sign_MC01);
+		Registry.register(Registry.ITEM, new Identifier("xcdm","station_sign_mc01"),new BlockItem(Station_Sign_MC01, new Item.Settings().group(ItemGroup.MISC)));
+		Registry.register(Registry.BLOCK, new Identifier("xcdm","station_sign_mc02"),Station_Sign_MC02);
+		Registry.register(Registry.ITEM, new Identifier("xcdm","station_sign_mc02"),new BlockItem(Station_Sign_MC02, new Item.Settings().group(ItemGroup.MISC)));
+		Registry.register(Registry.BLOCK, new Identifier("xcdm","station_sign_mc03"),Station_Sign_MC03);
+        Registry.register(Registry.ITEM, new Identifier("xcdm","station_sign_mc03"),new BlockItem(Station_Sign_MC03, new Item.Settings().group(ItemGroup.MISC)));
+		Registry.register(Registry.BLOCK, new Identifier("xcdm","station_sign_mc04"),Station_Sign_MC04);
+        Registry.register(Registry.ITEM, new Identifier("xcdm","station_sign_mc04"),new BlockItem(Station_Sign_MC04, new Item.Settings().group(ItemGroup.MISC)));
+		Registry.register(Registry.BLOCK, new Identifier("xcdm","station_sign_mc05"),Station_Sign_MC05);
+        Registry.register(Registry.ITEM, new Identifier("xcdm","station_sign_mc05"),new BlockItem(Station_Sign_MC05, new Item.Settings().group(ItemGroup.MISC)));
+		Registry.register(Registry.BLOCK, new Identifier("xcdm","station_sign_mc06"),Station_Sign_MC06);
+        Registry.register(Registry.ITEM, new Identifier("xcdm","station_sign_mc06"),new BlockItem(Station_Sign_MC06, new Item.Settings().group(ItemGroup.MISC)));
 		LOGGER.info("XingzeCraftDriveMod is loaded!");
 	}
 }
+
