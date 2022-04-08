@@ -17,5 +17,23 @@
             "down": { "uv": [16, 0, 8, 1], "texture": "#0" }
         }
     }],
-    "display": {}
+    "display": {
+        "thirdperson_righthand": {
+            "scale": [0.37, 0.37, -0.37]
+        },
+        "firstperson_righthand": {
+            "translation": [3, 1, 0],
+            "scale": [0.27, 0.27, 0.27]
+        },
+        "firstperson_lefthand": {
+            "translation": [3, 1, 0],
+            "scale": [0.27, 0.27, 0.27]
+        },
+        "gui": {
+            "scale": [0.46, 0.46, 1]
+        },
+        "fixed": {
+            "scale": [0.6, 0.6, 0.6]
+        }
+    }
 }

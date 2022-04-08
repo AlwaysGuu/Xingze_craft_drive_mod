@@ -1,9 +1,9 @@
 {
     "variants": {
-        "facing=north": { "model": "xcdm:block/station_sign_mc02", "uvlock": false },
-        "facing=east": { "model": "xcdm:block/station_sign_mc02", "y": 90, "uvlock": false },
-        "facing=south": { "model": "xcdm:block/station_sign_mc02", "y": 180, "uvlock": false },
-        "facing=west": { "model": "xcdm:block/station_sign_mc02", "y": 270, "uvlock": false }
+        "facing=north": { "model": "xcdm:block/railway_sign_stop", "uvlock": false },
+        "facing=east": { "model": "xcdm:block/railway_sign_stop", "y": 90, "uvlock": false },
+        "facing=south": { "model": "xcdm:block/railway_sign_stop", "y": 180, "uvlock": false },
+        "facing=west": { "model": "xcdm:block/railway_sign_stop", "y": 270, "uvlock": false }
     },
     "display": {
         "thirdperson_righthand": {

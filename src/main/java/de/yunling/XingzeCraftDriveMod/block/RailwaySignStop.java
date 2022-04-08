@@ -13,11 +13,9 @@ import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 
 
-
-
-public class StationSignMc01<IBlockReader, ISelectionContext> extends HorizontalFacingBlock {
+public class RailwaySignStop<IBlockReader, ISelectionContext> extends HorizontalFacingBlock {
     
-    public StationSignMc01(Settings settings) {
+    public RailwaySignStop(Settings settings) {
         super(settings);
         setDefaultState(this.stateManager.getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH));
     } 

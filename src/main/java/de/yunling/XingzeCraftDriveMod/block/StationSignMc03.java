@@ -14,10 +14,9 @@ import net.minecraft.world.BlockView;
 
 
 
-
-public class StationSignMc01<IBlockReader, ISelectionContext> extends HorizontalFacingBlock {
+public class StationSignMc03<IBlockReader, ISelectionContext> extends HorizontalFacingBlock {
     
-    public StationSignMc01(Settings settings) {
+    public StationSignMc03(Settings settings) {
         super(settings);
         setDefaultState(this.stateManager.getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH));
     } 
