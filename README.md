@@ -1,9 +1,13 @@
-# Fabric Example Mod
+# Xingze Craft Drive Mod
 
-## Setup
+This is a drive mod for Xingze Craft Minecraft Server. This mod using Fabric API, for Minecraft 1.17.1.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+## Function
+
+Add new blocks for railway systems  
+Download mod's updates from yunling.de  
+Wait for add...
+
 
 ## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This mod is available under the MIT License.
