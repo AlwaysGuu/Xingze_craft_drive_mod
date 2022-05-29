@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "block/frontrooms_down",
+		"particle": "Downloads/rmg.moo_1J.前室.Frontrooms-2"
+	},
+	"elements": [
+		{
+			"from": [-16, 0, 7],
+			"to": [32, 12, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 12, 3], "texture": "#1"},
+				"east": {"uv": [0, 7, 0.5, 10], "texture": "#1"},
+				"south": {"uv": [0, 3, 12, 6], "texture": "#1"},
+				"west": {"uv": [0.5, 7, 1, 10], "texture": "#1"},
+				"up": {"uv": [12, 6.5, 0, 6], "texture": "#1"},
+				"down": {"uv": [12, 6.5, 0, 7], "texture": "#1"}
+			}
+		}
+	]
+}
