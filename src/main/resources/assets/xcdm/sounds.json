@@ -1,0 +1,27 @@
+{
+    "point": {
+        "sounds": [
+            "xcdm:auu/point"
+        ]
+    },
+    "auu_nor_center_line": {
+        "sounds": [
+            "xcdm:auu/auu_center_line"
+        ]
+    },
+    "auu_dclose_old": {
+        "sounds": [
+            "xcdm:auu/auu_center_line"
+        ]
+    },
+    "auu_to_dh": {
+        "sounds": [
+            "xcdm:auu/to_dh"
+        ]
+    },
+    "auu_to_yl": {
+        "sounds": [
+            "xcdm:auu/to_yl"
+        ]
+    }
+}
