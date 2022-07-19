@@ -1,9 +1,0 @@
-@Xingze Craft Mod Updater Config$ 0.1
-@-lastet_edited$22.07.04
-# 注：config表意字符列表：# 注释 --忽略此行 @ 功能 --部分语句如结束时的endl前需加@ $ 变量 -- 搭配#使用，部分语句需传入变量，在变量前加入此符号,如无变量，也需要在函数名后加入$符号、; ^ 此符号后表示一个mod文件名
-^xingze-craft-drive-mod-beta_0.01.jar
-^exlinefurniture-fabric-1.18.2-v2.0.7.jar
-^joban-client-mod-fabric-1.18.2-1.1.1.jar
-^MTR-fabric-1.18.2-3.1.0-unofficial-1.jar
-^MTR-LU-Addon-fabric-1.18.2-3.0.1-1.0.16.jar
-@endl$
